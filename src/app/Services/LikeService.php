@@ -3,7 +3,8 @@ declare(strict_types=1);
 
 namespace App\Services;
 
-use App\Dataprovider\Eloquent\Like;
+
+use App\DataProvider\Eloquent\Like;
 
 class LikeService
 {
