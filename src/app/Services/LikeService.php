@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace App\Services;
 
-use App\Eloquent\Like;
+use App\Dataprovider\Eloquent\Like;
 
 class LikeService
 {
@@ -23,7 +23,7 @@ class LikeService
                     ]);
                     return 1;
                 }
-                
+
                 Like::where('post_id', $postId)
                     ->where('user_id', $userId)
                     ->delete();
