@@ -16,6 +16,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(
             \App\DataProvider\LikeRepositoryInterface::class,
             \App\DataProvider\LikeRepository::class
+            // \App\DataProvider\HogeRepository::class
         );
     }
 
