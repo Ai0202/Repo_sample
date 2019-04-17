@@ -10,7 +10,7 @@ cp .env.example .env
 docker-compose up -d --build
 
 
-docker exec -it soa_php-fpm_1 /bin/bash
+docker exec -it Repo_sample_php-fpm_1 /bin/bash
 
 cp .env.example .env
 
