@@ -1,5 +1,7 @@
 # Repo_sample
 Laravel Repository pattern sample
+Only have like and dislike method
+
 
 ## Installation
 
